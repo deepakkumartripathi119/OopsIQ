@@ -15,23 +15,23 @@ export default function Navbar() {
 
   return (
     <header
-      className={`bg-white fixed top-0 left-0 w-full h-20 duration-200 ease-[cubic-bezier(0,0,0,1)] lg:border-b border-zinc-100 text-zinc-600 z-20 ${
+      className={`bg-black/50 fixed top-0 left-0 w-full h-24 duration-200 ease-[cubic-bezier(0,0,0,1)] lg:border-b border-zinc-100 text-zinc-600 z-20 ${
         !toggleMenu
-          ? "overflow-hidden"
-          : "bg-white md:h-20 h-full overflow-visible"
+          ? ""
+          : "bg-black/50 md:h-24 h-full overflow-visible"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between lg:px-8 px-6 py-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-start gap-x-8 px-6 py-4"> 
         <Link
           href="/"
-          className="font-geistmono font-bold text-lg flex items-center gap-x-2 order-2"
+          className="font-geistmono font-bold text-xl flex items-center gap-x-1 text-white"
         >
-          <Image src={Logo} alt="Reda logo" width={20} />
-          Quiznote
+          <Image src={Logo} alt="OopsIQ logo" width={32} />
+          OopsIQ
         </Link>
 
-        <nav className="md:block hidden">
-          <ul className="flex items-center gap-3 pl-4 order-1">
+        <nav className="md:block hidden ml-8"> 
+          <ul className="flex items-center gap-3"> 
             {navlinks.map((link) => (
               <li key={link.name}>
                 <Link
@@ -45,11 +45,11 @@ export default function Navbar() {
           </ul>
         </nav>
 
-        <div className="order-3">
-          <div className="md:flex hidden items-center gap-x-6">
+        <div className="ml-auto"> 
+          <div className="md:flex hidden items-center gap-x-4"> 
             <Button
               text="GitHub"
-              url="https://github.com/Evavic44/quiznote"
+              url="https://github.com/palakkthakkar/OopsIQ"
               icon={<GithubIcon />}
               external
               theme="primary"
