@@ -20,3 +20,8 @@ export interface QuizType {
   answer: string;
   resources: [{ title: string; link: string }];
 }
+
+export interface NavLink {
+  name: string;
+  url: string;
+}

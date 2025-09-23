@@ -19,8 +19,11 @@ const config: Config = {
         sunny: "#faf8f0",
       },
       fontFamily: {
-        geistmono: ["var(--geistmono)"],
-        geistsans: ["var(--geist-sans)"],
+        sans: ["'Alan Sans'", 'sans-serif'],
+        mono: ["'Roboto Mono'", 'monospace'],
+      },
+      borderWidth: {
+        '3': '3px',
       },
     },
   },

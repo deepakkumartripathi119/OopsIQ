@@ -26,7 +26,7 @@ export default function Navbar() {
           href="/"
           className="font-geistmono font-bold text-xl flex items-center gap-x-1 text-white"
         >
-          <Image src={Logo} alt="OopsIQ logo" width={32} />
+                    <Image src={Logo} alt="OopsIQ logo" width={64} />
           OopsIQ
         </Link>
 

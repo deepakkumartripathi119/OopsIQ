@@ -35,7 +35,7 @@ export default function Form({
                 name="topic"
                 id="topic"
                 placeholder="Object-oriented programming in Java"
-                className="font-geistmono appearance-none w-full p-3 border border-zinc-200 placeholder-zinc-400 text-zinc-700 rounded-md focus:outline-none focus:ring-zinc-300 text-sm"
+                                                className="font-geistmono appearance-none w-full p-3 border-3 border-zinc-600 placeholder-zinc-400 text-zinc-700 rounded-md focus:outline-none focus:ring-0 text-sm"
               />
             </label>
             {step === 0 ? <TextNote /> : <FileNote />}
@@ -49,7 +49,7 @@ export default function Form({
             </p>
 
             <select
-              className="font-geistmono block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-zinc-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs text-sm"
+                            className="font-geistmono block w-full rounded-md py-1.5 shadow-sm border border-black focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs text-sm"
               name="difficulty"
               id="difficulty"
             >
@@ -65,7 +65,7 @@ export default function Form({
             </p>
 
             <select
-              className="font-geistmono block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-zinc-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs text-sm"
+                            className="font-geistmono block w-full rounded-md py-1.5 shadow-sm border border-black focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs text-sm"
               name="quizCount"
               id="quizCount"
             >
@@ -81,7 +81,7 @@ export default function Form({
             <p className="text-sm mb-2 text-zinc-500">Completion Time</p>
 
             <select
-              className="font-geistmono block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-zinc-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs text-sm"
+                            className="font-geistmono block w-full rounded-md py-1.5 shadow-sm border border-black focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs text-sm"
               name="timer"
               id="timer"
               value={timer}

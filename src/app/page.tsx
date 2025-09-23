@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <main className="relative">
       <Navbar />
-      <Container className="mt-40">
+            <Container className="mt-40" hasBackground={false}>
         <Header
           title="Studying Doesn't Have to be Boring!"
           description="Transform your notes or study materials into interactive quizzes to help maximize learning retention"
