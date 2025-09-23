@@ -1,3 +1,3 @@
-import { NavLink } from "../../types/index";
+import { NavLink } from '../../../types';
 
 export const navlinks: NavLink[] = [];
