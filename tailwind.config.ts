@@ -18,13 +18,6 @@ const config: Config = {
         light: "#fdfcff",
         sunny: "#faf8f0",
       },
-      fontFamily: {
-        sans: ["'Alan Sans'", 'sans-serif'],
-        mono: ["'Roboto Mono'", 'monospace'],
-      },
-      borderWidth: {
-        '3': '3px',
-      },
     },
   },
   plugins: [require("@tailwindcss/forms")],
