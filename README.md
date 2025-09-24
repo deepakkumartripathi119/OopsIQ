@@ -36,7 +36,7 @@ Follow the steps below to run quiznote locally on your machine
 
 ```bash
 
-cd quiznote
+cd OopsIQ
 
 npm install
 
