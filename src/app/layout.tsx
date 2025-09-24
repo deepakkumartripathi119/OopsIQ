@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OopsIQ | Powered by Google Gemini",
+  title: "OopsIQ",
   description:
     "Generate quizzes from your notes using the AI-powered quiz generator",
 };
