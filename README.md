@@ -1,17 +1,15 @@
 <div align="center">
-<a href="https://quiznote.vercel.app"><img src="/public/logo.png" width="60px"></a>
+<a href="https://oopsiq.onrender.com/"><img src="/public/logo.png" width="60px"></a>
 </div>
 
 <div align="center">
-<h1>Quiznote</h1>
+<h1>OopsIQ</h1>
 <p>The ultimate learner's companior for transforming notes into interactive quizzes to help maximize learning retention</p>
-<!-- TODO: Replace with demo video -->
-<a href="https://youtu.be/ek5dUA8Db_w?si=V_9dNpyM2xk0CW5a" target="_blank"><img src="/public/images/cover.png" alt="cover image" /></a>
 </div>
 
-## Demo Video
+## Deployed Link
+[OOPS IQ](https://oopsiq.onrender.com/)
 
-[Quiznote Demo Video](https://youtu.be/ek5dUA8Db_w?si=V_9dNpyM2xk0CW5a)
 
 ## Technologies
 
