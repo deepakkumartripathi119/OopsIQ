@@ -25,7 +25,7 @@ Follow the steps below to run quiznote locally on your machine
 > [!note]
 > For the Google AI Hackathon judges, please ignore the steps below and insert the `GOOGLE_SERVICE_KEY` sent via the test email into a `.env.local` file to start the program.
 
-- `git clone https://github.com/Evavic44/quiznote`
+- `git clone https://github.com/deepakkumartripathi119/OopsIQ`
 
 - Rename `.env.example` to `.env.local`
 - Get your private keys from [google cloud IAM & Admin](https://cloud.google.com)
